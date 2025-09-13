@@ -19,6 +19,12 @@ Steps followed in the notebook:
 7. Save results and plots in `/screenshots`
 
 
+# 📂 Project Structure
+linear-regression-housing/
+├── data/ # dataset (CSV file)
+├── screenshots/ # saved plots
+├── linear_regression_housing.ipynb # Jupyter Notebook
+└── README.md # project documentation
 
 
 
