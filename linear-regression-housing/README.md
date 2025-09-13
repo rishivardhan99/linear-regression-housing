@@ -1,32 +1,25 @@
-\# Linear Regression - Housing Price Prediction
+# 🏠 Linear Regression - Housing Price Prediction
+
+## 📌 Objective
+Predict housing prices using a **Linear Regression model** on the Boston Housing dataset.
+
+## 📊 Dataset
+- Source: Boston Housing Dataset (from `sklearn.datasets`)
+- Features include average rooms, age of houses, tax rates, etc.
+- Target: `PRICE` (Median value of owner-occupied homes)
+
+## ⚙️ Implementation
+Steps followed in the notebook:
+1. Import libraries and load dataset
+2. Data preprocessing (convert to DataFrame, add target column)
+3. Exploratory Data Analysis (heatmaps, correlation plots)
+4. Train-test split
+5. Train a Linear Regression model
+6. Evaluate model using metrics (MSE, RMSE, R²)
+7. Save results and plots in `/screenshots`
 
 
 
-\## Objective
-
-Predict housing prices using a linear regression model.
-
-
-
-\## Quick start
-
-1\. Create environment (conda): `conda create -n lr\_env python=3.10 -y`
-
-2\. Activate: `conda activate lr\_env`
-
-3\. Install deps: `conda install -c conda-forge jupyter numpy pandas matplotlib seaborn scikit-learn joblib -y`
-
-4\. Start notebook: `jupyter notebook` -> open `notebooks/linear\_regression\_housing.ipynb`
-
-
-
-\## Results
-
-MAE: X.XXX  
-
-RMSE: X.XXX  
-
-R²: X.XXX
 
 
 
